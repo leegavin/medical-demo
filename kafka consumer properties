@@ -1,0 +1,6 @@
+consumer group = any
+commit = latest
+security identity = medical
+security protocol = sasl_ssl
+
+parser = JSON
