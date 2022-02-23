@@ -1,0 +1,10 @@
+{
+  "sasl.mechanism"     : "PLAIN",
+  "bootstrap.servers"  : "ohs-streams.servicebus.windows.net:9093",
+  "sasl.username"      : "$ConnectionString",
+  "sasl.password"      : "Endpoint=sb://ohs-streams.servicebus.windows.net/;SharedAccessKeyName=listen;SharedAccessKey=sqOII7MzAu0UEdwelvwSTzYsJecCQHXTGNb0AT0V2vQ=",
+  "security.protocol"  : "SASL_SSL",
+  "ssl.ca.location"    : "./cacert.pem"
+}
+
+topic = ohs_ingestion_data
