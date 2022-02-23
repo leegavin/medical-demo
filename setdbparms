@@ -1,0 +1,1 @@
+mqsisetdbparms -w e:\v12Server -n kafka::medical -u $ConnectionString -p Endpoint=sb://ohs-streams.servicebus.windows.net/;SharedAccessKeyName=listen;SharedAccessKey=sqOII7MzAu0UEdwelvwSTzYsJecCQHXTGNb0AT0V2vQ= 
